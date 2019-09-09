@@ -205,7 +205,7 @@ export class MapContainer extends React.Component {
           streetView={
             <img
               alt="Restaurant"
-              src={`https://maps.googleapis.com/maps/api/streetview?size=300x200&location=${restaurant.position.lat},${restaurant.position.lng}&heading=151.78&pitch=-0.76&key=AIzaSyACzqQ9vj4BR5yzHbWsZi5oTcIAmZ8mKcE`}
+              src={`https://maps.googleapis.com/maps/api/streetview?size=300x200&location=${restaurant.position.lat},${restaurant.position.lng}&heading=151.78&pitch=-0.76&key=**`}
             />
           }
         />
