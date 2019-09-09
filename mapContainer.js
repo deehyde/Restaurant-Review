@@ -8,7 +8,7 @@ import axios from "axios";
 import RestaurantFilter from "./RestaurantFilter";
 
 let markers;
-//come back to this array and make it dependent on what is in view  / maps bounds
+
 export class MapContainer extends React.Component {
   constructor(props) {
     super(props);
